@@ -1,0 +1,4 @@
+Görgetésre betöltő animáció
+
+Tesztelési, változó írási lehetőség
+Kimeneti lehetőség

@@ -1,0 +1,9 @@
+body{
+    /*background-color: burlywood;*/
+    background-color: rgb(255,228,196);
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+.foc{
+    margin-bottom: 10%;
+}
