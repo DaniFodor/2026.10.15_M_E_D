@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2fc;
+}
+
+.container {
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.intro, .code {
+  width: 45%;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #65758b;
+  line-height: 1.8;
+}
+
+
+.code {
+  background: #10131a;
+  color: #fff;
+  padding: 30px;
+  border-radius: 24px;
+  box-sizing: border-box;
+}
+
+
+
+.adat {
+  color: #abb2bf;
+  padding: 4px 8px;
+  font-family: monospace;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+.deklaráció_T { 
+  color: #c678dd; 
+}
+
+.Valt_nev { 
+  color: #e06c75; 
+}
+
+.Szov_E { 
+  color: #98c379; 
+}
+
+.szam { 
+  color: #d19a66; 
+}
+
+.fgv { 
+  color: #61afef; 
+}
+
+.komment { 
+  color: #5c6370; 
+  font-style: italic; 
+}
+
+/* A kártyákat tartalmazó doboz rács (Grid) elrendezése */
+.kartyakd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Pontosan 4 oszlop */
+    gap: 20px;
+    margin: 30px 0;
+}
+
+/* Egyedi kártyák stílusa */
+.kartya {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.kicsi {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #0f172a;
+}
+
+/* Gombok elrendezése (ha szeretnéd, hogy egymás mellett vagy alatt legyenek) */
+.gombok {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
