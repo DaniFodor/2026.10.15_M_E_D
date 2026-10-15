@@ -1,0 +1,37 @@
+Mi az a változó?
+A programozásban a változó olyan, mint egy címkézett doboz a memóriában, amibe adatokat (számokat, szövegeket stb.) tudunk eltenni, hogy később felhasználjuk vagy módosítsuk őket.
+
+1. Változó létrehozása és értékadás (Python példa)
+A változó nevét bal oldalra írjuk, az = jelet használjuk értékadásra, a jobb oldalra pedig a tárolandó adat kerül.
+
+Python
+nev = "Anna"      # Szöveg (string) típusú változó
+kor = 16          # Egész szám (int) típusú változó
+magassag = 1.68   # Valós szám (float) típusú változó
+diak_e = True     # Logikai (bool) típusú változó
+2. A változók főbb adattípusai
+String (str): Szövegek tárolására (idézőjelek között, pl. "Hello").
+
+Integer (int): Egész számok (pl. 42, -5).
+
+Float (float): Tizedesjegyeket tartalmazó számok (pl. 3.14).
+
+Boolean (bool): Csak két értéke lehet: igaz (True) vagy hamis (False).
+
+3. Szabályok és jó gyakorlatok az elnevezéshez
+Csak betűket, számokat és aláhúzásjelet (_) tartalmazhatnak.
+
+Nem kezdődhetnek számmal (pl. a 1valtozo hibás, a valtozo1 helyes).
+
+Kis- és nagybetűk különböznek (a kor és a Kor két különböző változó).
+
+Használjunk angol vagy következetes magyar elnevezéseket, és adjunk nekik érthető nevet (pl. ossz_pontszám a sima x helyett).
+
+4. Mire jó a gyakorlatban? (Példa)
+Python
+alap_ar = 1000
+kedvezmeny = 200
+vegleges_ar = alap_ar - kedvezmeny
+
+print(vegleges_ar)  # Eredmény: 800
+Itt a változók segítségével kiszámoltunk egy árat anélkül, hogy a konkrét számokkal kellene manuálisan dolgoznunk minden alkalommal.
